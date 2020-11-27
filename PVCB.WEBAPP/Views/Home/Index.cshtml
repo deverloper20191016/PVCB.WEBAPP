@@ -1,0 +1,180 @@
+﻿@using PVCB.WEBAPP.Models
+@{
+  Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+  TracuuModels tracuu = ViewBag.Tracuu;
+  int fileSize = ViewBag.FileSize;
+}
+
+<input type="hidden" hidden value="@fileSize" id="txtFileSize"/>
+<div class="container p-0">
+  <h4 class="h2--des text--mi text--color-bk mb-3 px-3 px-lg-0 mt-3 mt-lg-6 pt-lg-1">Chào mừng đến với PVcomBank</h4>
+  <div class="mb-3 mb-lg-5 text--mi">
+    <div class="button-stack">
+      <button style="cursor: default" class="button-solid button-solid--md button-solid--lg--tab">
+        <span class="d-none d-md-inline"> Tra cứu hóa đơn điện tử </span>
+        <span class="d-inline d-md-none"> Tra cứu hóa đơn điện tử </span>
+      </button>
+
+      @*<button class="button-solid button-solid--md button-solid--lg--tab" data-tabs="#business-tabs">
+        <span class="d-none d-md-inline"> Từ file hóa đơn </span>
+        <span class="d-inline d-md-none"> Từ file hóa đơn </span>
+      </button>*@
+
+    </div>
+  </div>
+
+  <div class="tabs-container" id="business-tabs">
+    <nav>
+      <div role="tablist" class="nav nav-tabs">
+        <div class="col-md-4 offset-md-2 personal-search">
+          <div class="form-horizontal row-fluid">
+            <form action="/" class="form-horizontal" method="post" target="_blank">
+
+              <div class="form-group">
+                <div class="control-group">
+                  <div class="input-group">
+                    <div class="custom-file">
+                      <input type="file" class="custom-file-input" id="input-file-now"
+                             aria-describedby="inputGroupFileAddon01" onchange="filevalidation()">
+                      <label class="custom-file-label" for="input-file-now" id="file-input-name"></label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="form-group no-line">
+                <div class="text-center">
+                  <button class="btn btn-success tracuu1" type="button" id="btnUpFile">
+                    <span class="glyphicon glyphicon-search"></span><i class="fas fa-search"></i>
+                    Xem hóa đơn
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+  <div class="tabs-container active" id="personal-tabs">
+    <nav>
+      <div role="tablist" class="nav nav-tabs row">
+        <div class="col-md-4 offset-md-2">
+          <div class="form-horizontal personal-search">
+            <form action="/" class="form-horizontal" id="frmIndex" method="post">
+              <div class="form-group">
+                <label class="text-center" style="width: 100%" for="txtSobaomat"><b>Vui lòng nhập Số bảo mật hoặc Số giao dịch</b><b style="color: red"> (*)</b></label>
+                <input id="txtSobaomat" name="sobaomat" value="@tracuu.Sobaomat" type="text" class="form-control" placeholder="Nhập số bảo mật ...">
+              </div>
+
+              <div class="form-group row text-center">
+                <div class="col-sm-12">
+                  <button class="btn button-solid" type="button" id="btnInvoice">
+                    <!-- test âcd-->
+                    <span class="glyphicon glyphicon-search"></span><i class="fas fa-search"></i> Tra cứu hóa đơn
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+        <div class="col-md-6 offset-md-1">
+          <!--table trả kết quả tra cứu theo số bảo mật-->
+          <div class="row text-center" hidden id="divInvoice">
+            <div class="col-sm-12">
+              <div class="white-box">
+                <h4 class="box-title m-b-0">Kết quả tra cứu</h4>
+                <p class="text-muted m-b-20">
+                  Thông tin hóa đơn mà Quý khách hàng đã tra cứu !
+                </p>
+                <div class="table-responsive">
+                  <table class="table table-bordered" hidden="hidden" id="tableInvoice">
+                    <thead>
+                      <tr>
+                        <th>Mẫu số</th>
+                        <th>Ký hiệu</th>
+                        <th>Số hóa đơn</th>
+                        <th>Ngày hóa đơn</th>
+                        <th>Tổng tiền</th>
+                        <th></th>
+                      </tr>
+                    </thead>
+                    <tbody class="tbl-body-custom">
+                      <!--Thêm boby của bảng vào đây-->
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+
+
+  <!-- Modal -->
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-invoice" style="margin-top: 0px; padding-top: 0">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-button">
+            <a href="#" class="btn btn-modal button-solid" id="btn-download-pdf" onClick="PrintInvoicePDF();" style="display: none;"  title="Xem Hóa Đơn"><i class="fa fa-file-pdf-o"></i> In Hóa Đơn</a>
+            <a href="#" class="btn btn-modal button-solid" id="btn-download-pdf-inchuyendoi" onClick="PrintInvoiceChuyenDoiPDF();" style="display: none;" title="Xem Hóa Đơn"><i class="fa fa-file-pdf-o"></i> In Chuyển Đổi</a>
+            <a href="#" type="button" id="btn-dowd-zip" class="btn button btn-function btn-export" style="display: none;" onclick="ExportZipXML()" title="Tải XML"><i class="fas fa-download"></i> Tải XML</a>
+
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#" id="readSignatureSeller" onclick="readSignature('seller')">Người bán</a>
+            </div>
+
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+        </div>
+        <div class="modal-body">
+          <div id="sobaomat_html" hidden></div>
+          <div id="invoiceauth" hidden></div>
+          <div id="abcdefg" hidden></div>
+          <div id="ecd" hidden></div>
+          <div id="fileName" hidden></div>
+          <p id="title-load" style="text-align:center">Đang tải dữ liệu...</p>
+          <div id="htm-content" class="text-center" style="display: none; ">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+@section EndScript
+{
+  <script>
+    document.getElementById('input-file-now').addEventListener('change', handleFileSelect, false);
+    $(document).ready(function () {      
+      $('#input-file-now').change(function (e) {
+        $("#file-input-name").html('');
+        var fileName = e.target.files[0].name;
+        $("#file-input-name").html(fileName);
+      });
+    });
+
+
+   
+
+  </script>
+  <script src="~/Content/js/invoice.js"></script>
+}

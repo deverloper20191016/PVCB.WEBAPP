@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24pt" height="24pt" viewBox="0 0 24 24">
+<g enable-background="new">
+<clipPath id="cp0">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 5 4.7 L 18.9 4.7 L 18.9 20 L 5 20 Z "/>
+</clipPath>
+<g clip-path="url(#cp0)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 0 25 L 23.9 25 L 23.9 -.3 L 0 -.3 Z " fill="#ffffff"/>
+</g>
+<clipPath id="cp1">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 6.25 3.95 L 19.65 3.95 L 19.65 18.75 L 6.25 18.75 Z "/>
+</clipPath>
+<g clip-path="url(#cp1)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 1.25 23.75 L 24.65 23.75 L 24.65 -1.05 L 1.25 -1.05 Z " fill="#ffc708"/>
+</g>
+<clipPath id="cp2">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 18.9 20 L 5 20 L 5 4.7 L 18.9 4.7 L 18.9 20 Z M 18.4 19.5 L 18.4 5.2 L 5.5 5.2 L 5.5 19.5 L 18.4 19.5 Z "/>
+</clipPath>
+<g clip-path="url(#cp2)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 0 25 L 23.9 25 L 23.9 -.3 L 0 -.3 Z " fill="#292525"/>
+</g>
+<clipPath id="cp3">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 17.4999 12.7998 L 17.4999 6.7498 L 16.9999 6.7498 L 16.999 12.3 L 14.6499 12.2998 L 14.6499 12.7998 L 17.4999 12.7998 Z "/>
+</clipPath>
+<g clip-path="url(#cp3)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 9.6499 17.7998 L 22.4999 17.7998 L 22.4999 1.7498 L 9.6499 1.7498 Z " fill="#292525"/>
+</g>
+<clipPath id="cp4">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 13.5 9.4 L 13.5 6.75 L 13 6.75 L 13 8.9 L 10.85 8.9 L 10.85 9.4 L 13.5 9.4 Z "/>
+</clipPath>
+<g clip-path="url(#cp4)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 5.85 14.4 L 18.5 14.4 L 18.5 1.75 L 5.85 1.75 Z " fill="#292525"/>
+</g>
+<clipPath id="cp5">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 13.5 12.7994 L 13.5 10.1504 L 13 10.1504 L 13 12.3 L 10.85 12.2994 L 10.85 12.7994 L 13.5 12.7994 Z "/>
+</clipPath>
+<g clip-path="url(#cp5)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 5.85 17.7994 L 18.5 17.7994 L 18.5 5.1504 L 5.85 5.1504 Z " fill="#292525"/>
+</g>
+<clipPath id="cp6">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 9.7002 9.4 L 9.7002 6.75 L 9.2002 6.75 L 9.2 8.9 L 7.0502 8.9 L 7.0502 9.4 L 9.7002 9.4 Z "/>
+</clipPath>
+<g clip-path="url(#cp6)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 2.0502 14.4 L 14.7002 14.4 L 14.7002 1.75 L 2.0502 1.75 Z " fill="#292525"/>
+</g>
+<clipPath id="cp7">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 9.7002 12.7994 L 9.7002 10.1504 L 9.2002 10.1504 L 9.2 12.3 L 7.0502 12.2994 L 7.0502 12.7994 L 9.7002 12.7994 Z "/>
+</clipPath>
+<g clip-path="url(#cp7)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 2.0502 17.7994 L 14.7002 17.7994 L 14.7002 5.1504 L 2.0502 5.1504 Z " fill="#292525"/>
+</g>
+<clipPath id="cp8">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 7.05 14.95 L 17.05 14.95 L 17.05 17.95 L 7.05 17.95 Z "/>
+</clipPath>
+<g clip-path="url(#cp8)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 2.05 22.95 L 22.05 22.95 L 22.05 9.95 L 2.05 9.95 Z " fill="#ffffff"/>
+</g>
+<clipPath id="cp9">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 17.3 18.2 L 6.8 18.2 L 6.8 14.7 L 17.3 14.7 L 17.3 18.2 Z M 16.8 17.7 L 16.8 15.2 L 7.3 15.2 L 7.3 17.7 L 16.8 17.7 Z "/>
+</clipPath>
+<g clip-path="url(#cp9)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 1.8 23.2 L 22.3 23.2 L 22.3 9.7 L 1.8 9.7 Z " fill="#292525"/>
+</g>
+</g>
+</svg>

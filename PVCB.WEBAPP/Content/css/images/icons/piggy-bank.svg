@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24pt" height="24pt" viewBox="0 0 24 24">
+<g enable-background="new">
+<clipPath id="cp0">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 14.7979 10.7762 L 14.7979 14.14951 L 16.42559 14.14951 L 16.42559 12.16172 L 14.7979 10.7762 Z " fill-rule="evenodd"/>
+</clipPath>
+<g clip-path="url(#cp0)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 9.7979 19.14951 L 21.42559 19.14951 L 21.42559 5.7762 L 9.7979 5.7762 Z " fill="#ffffff"/>
+</g>
+<clipPath id="cp1">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 11.3004 20.95564 L 11.0973 20.95444 L 4.7502 18.08801 L 4.7502 16.0766 L 17.8502 16.0766 L 17.8502 18.0901 L 11.3004 20.95564 Z " fill-rule="evenodd"/>
+</clipPath>
+<g clip-path="url(#cp1)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M -.2498 25.95564 L 22.8502 25.95564 L 22.8502 11.0766 L -.2498 11.0766 Z " fill="#ffffff"/>
+</g>
+<clipPath id="cp2">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 13.75 2.0764 L 20.65 2.0764 L 20.65 7.5764 L 13.75 7.5764 Z "/>
+</clipPath>
+<g clip-path="url(#cp2)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 8.75 12.5764 L 25.65 12.5764 L 25.65 -2.9236 L 8.75 -2.9236 Z " fill="#ffffff"/>
+</g>
+<clipPath id="cp3">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 5.95 7.0764 L 8.25 7.0764 L 8.25 14.3764 L 5.95 14.3764 Z "/>
+</clipPath>
+<g clip-path="url(#cp3)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M .95 19.3764 L 13.25 19.3764 L 13.25 2.0764 L .95 2.0764 Z " fill="#292525"/>
+</g>
+<clipPath id="cp4">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 6.45 7.577 L 7.75 7.577 L 7.75 13.877001 L 6.45 13.877001 Z "/>
+</clipPath>
+<g clip-path="url(#cp4)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 1.45 18.877 L 12.75 18.877 L 12.75 2.577 L 1.45 2.577 Z " fill="#ffffff"/>
+</g>
+<clipPath id="cp5">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 10.15 7.0764 L 12.45 7.0764 L 12.45 14.3764 L 10.15 14.3764 Z "/>
+</clipPath>
+<g clip-path="url(#cp5)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 5.15 19.3764 L 17.45 19.3764 L 17.45 2.0764 L 5.15 2.0764 Z " fill="#292525"/>
+</g>
+<clipPath id="cp6">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 10.65 7.577 L 11.95 7.577 L 11.95 13.877001 L 10.65 13.877001 Z "/>
+</clipPath>
+<g clip-path="url(#cp6)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 5.65 18.877 L 16.95 18.877 L 16.95 2.577 L 5.65 2.577 Z " fill="#ffffff"/>
+</g>
+<clipPath id="cp7">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 16.6498 14.3766 L 16.6498 12.1266 L 16.1498 12.1266 L 16.149 13.877 L 15.049 13.877 L 15.0498 10.7266 L 14.5498 10.7266 L 14.5498 14.3766 L 16.6498 14.3766 Z "/>
+</clipPath>
+<g clip-path="url(#cp7)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 9.5498 19.3766 L 21.6498 19.3766 L 21.6498 5.7266 L 9.5498 5.7266 Z " fill="#292525"/>
+</g>
+<clipPath id="cp8">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 5.3999 5.2764 L 12.599899 5.2764 L 12.599899 5.7764 L 5.3999 5.7764 Z "/>
+</clipPath>
+<g clip-path="url(#cp8)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M .3999 10.7764 L 17.5999 10.7764 L 17.5999 .2764 L .3999 .2764 Z " fill="#292525"/>
+</g>
+<clipPath id="cp9">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 4 3.4766 L 12.6 3.4766 L 12.6 3.9766 L 4 3.9766 Z "/>
+</clipPath>
+<g clip-path="url(#cp9)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M -1 8.9766 L 17.6 8.9766 L 17.6 -1.5234 L -1 -1.5234 Z " fill="#292525"/>
+</g>
+<clipPath id="cp10">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 12.2002 19.7266 L 6.0002 16.9266 L 6.0002 15.3266 L 18.6002 15.3266 L 18.6002 16.9266 L 12.2002 19.7266 Z " fill-rule="evenodd"/>
+</clipPath>
+<g clip-path="url(#cp10)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 1.0002 24.7266 L 23.6002 24.7266 L 23.6002 10.3266 L 1.0002 10.3266 Z " fill="#ffc708"/>
+</g>
+<clipPath id="cp11">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 15 1.3264 L 21.4 1.3264 L 21.4 6.3254005 L 15 6.3254005 Z "/>
+</clipPath>
+<g clip-path="url(#cp11)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 10 11.3254 L 26.4 11.3254 L 26.4 -3.6736 L 10 -3.6736 Z " fill="#ffc708"/>
+</g>
+<clipPath id="cp12">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 11.3004 20.95564 L 11.0973 20.95444 L 4.7502 18.08801 L 4.7502 16.0766 L 17.8502 16.0766 L 17.8502 18.0901 L 11.3004 20.95564 Z M 11.201 20.453 L 17.35 17.763 L 17.35 16.577 L 5.25 16.577 L 5.25 17.765 L 11.201 20.453 Z "/>
+</clipPath>
+<g clip-path="url(#cp12)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M -.2498 25.95564 L 22.8502 25.95564 L 22.8502 11.0766 L -.2498 11.0766 Z " fill="#292525"/>
+</g>
+<clipPath id="cp13">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 20.65 7.5764 L 13.75 7.5764 L 13.75 2.0764 L 20.65 2.0764 L 20.65 7.5764 Z M 20.15 7.077 L 20.15 2.577 L 14.25 2.577 L 14.25 7.077 L 20.15 7.077 Z "/>
+</clipPath>
+<g clip-path="url(#cp13)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 8.75 12.5764 L 25.65 12.5764 L 25.65 -2.9236 L 8.75 -2.9236 Z " fill="#292525"/>
+</g>
+<clipPath id="cp14">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 17.2002 10.7762 C 17.84393 10.7762 18.31161 10.56834 18.77698 10.10298 C 19.19581 9.684146 19.40605 9.263446 19.44391 8.714212 L 19.4502 8.5262 L 19.4502 7.3262 L 18.9502 7.3262 L 18.9502 8.5262 C 18.9502 9.032466 18.79806 9.374791 18.42342 9.749423 C 18.04879 10.12406 17.70647 10.2762 17.2002 10.2762 C 16.30999 10.2762 15.5318 9.591437 15.45621 8.673079 L 15.4502 8.5262 L 15.4502 7.3262 L 14.9502 7.3262 L 14.9502 8.5262 C 14.9502 9.801606 15.99441 10.7762 17.2002 10.7762 Z "/>
+</clipPath>
+<g clip-path="url(#cp14)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 9.9502 15.7762 L 24.4502 15.7762 L 24.4502 2.3262 L 9.9502 2.3262 Z " fill="#292525"/>
+</g>
+<clipPath id="cp15">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 16.9502 3.3262 L 17.4502 3.3262 L 17.4502 4.2012 L 16.9502 4.2012 Z "/>
+</clipPath>
+<g clip-path="url(#cp15)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 11.9502 9.2012 L 22.4502 9.2012 L 22.4502 -1.6738 L 11.9502 -1.6738 Z " fill="#292525"/>
+</g>
+<clipPath id="cp16">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 17.2006 6.2175 C 16.57483 6.2175 16.0676 5.709873 16.0676 5.0845 C 16.0676 4.459127 16.57483 3.9515 17.2006 3.9515 C 17.82557 3.9515 18.3326 4.459326 18.3326 5.0845 C 18.3326 5.709674 17.82557 6.2175 17.2006 6.2175 Z M 17.2006 5.7175 C 17.54925 5.7175 17.8326 5.433707 17.8326 5.0845 C 17.8326 4.735293 17.54925 4.4515 17.2006 4.4515 C 16.85106 4.4515 16.5676 4.735182 16.5676 5.0845 C 16.5676 5.433818 16.85106 5.7175 17.2006 5.7175 Z "/>
+</clipPath>
+<g clip-path="url(#cp16)">
+<path transform="matrix(1,0,0,-1,0,24)" d="M 11.0676 11.2175 L 23.3326 11.2175 L 23.3326 -1.0485 L 11.0676 -1.0485 Z " fill="#292525"/>
+</g>
+</g>
+</svg>

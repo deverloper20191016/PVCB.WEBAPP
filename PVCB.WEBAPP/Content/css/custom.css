@@ -1,0 +1,82 @@
+﻿.personal-search {
+    margin-top: 15px;
+}
+
+.custom-file-input {
+    opacity: 100;
+}
+
+.form-control {
+    height: calc(1.5em + .75rem + 2px);
+    font-size: 15px;
+}
+
+.btn {
+    padding: 1rem .75rem;
+    font-size: 15px;
+}
+
+@media only screen and (min-width: 576px) {
+    .modal-invoice {
+        max-width: 1000px;
+    }
+}
+
+.modal-title {
+    position: absolute;
+}
+
+.modal-button {
+    width: 100%;
+}
+
+.modal-header .close {
+    margin-bottom: 10px
+}
+
+@media (min-width: 992px) {
+    .mt-lg-6, .my-lg-6 {
+        margin-top: 84px !important;
+    }
+}
+
+.btn-modal, .btn-modal-result .btn-primary {
+    margin: 0 auto;
+    min-width: 100px
+}
+
+.table-responsive, td, code, .tbl-body-custom > tr > td {
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+.btn-modal-result .btn-primary {
+    display: inline-block;
+    text-decoration: none;
+    color: #292525;
+    background-color: #ffc708;
+    border: none;
+    border-radius: 999px;
+    -webkit-transition: all .35s;
+    transition: all .35s;
+    position: relative;
+}
+
+    .btn-modal-result .btn-primary:hover {
+        color: #292525;
+        text-decoration: none;
+        border: none;
+    }
+
+.btn-function {
+    border-radius: 999px;
+}
+
+    .btn-function:hover {
+        text-decoration: none;
+    }
+
+.btn-export, .btn-export:hover {
+    text-decoration: none;
+    background-color: #0772ba;
+    color: white;
+}

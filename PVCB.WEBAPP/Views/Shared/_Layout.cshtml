@@ -1,0 +1,325 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="vi">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>
+    Ngân hàng TMCP Đại Chúng Việt Nam - PVcomBank
+  </title>
+  <!--<base href="http://beta.pvcombank.com.vn/">-->
+  <base href=".">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no, maximum-scale=1">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link rel="icon" href="http://beta.pvcombank.com.vn/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="http://beta.pvcombank.com.vn/favicon.ico" type="image/x-icon">
+
+  @*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">*@
+
+  <link href="~/Content/css/bootstrap.min.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="~/Content/css/styles.css" type="text/css">
+  <link rel="stylesheet" href="~/Content/css/styles-print.css" type="text/css">
+  <link rel="stylesheet" href="~/Content/css/styles-tab.css" type="text/css">
+  <link rel="stylesheet" href="~/Content/css/styles-des.css" type="text/css">
+  <link rel="stylesheet" href="~/Content/css/style.css" type="text/css">
+  <link rel="stylesheet" href="~/Content/css/slick.css" type="text/css">
+  <link href="~/Content/css/custom.css" rel="stylesheet" />
+
+
+  @*<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">*@
+  <link href="~/Content/css/all.min.css" rel="stylesheet" />
+  <script src="~/Content/js/jquery.min.js"></script>
+  @*<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>*@
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  @*<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>*@
+  <script src="~/Content/js/bootstrap.min.js"></script>
+  <script src="~/Content/js/jquery.navbb62.js"></script>
+  <style>
+
+    .card--description {
+      display: -webkit-box !important;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+      .card--description > p {
+        margin: 0;
+      }
+
+    .description-news {
+      color: var(--color-bk);
+      font-size: 1.4rem;
+    }
+  </style>
+  <style>
+
+    .card--description {
+      display: -webkit-box !important;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+      .card--description > p {
+        margin: 0;
+      }
+
+    .description-news {
+      color: var(--color-bk);
+      font-size: 1.4rem;
+    }
+  </style>
+  <style>
+
+    .card--description {
+      display: -webkit-box !important;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+      .card--description > p {
+        margin: 0;
+      }
+
+    .description-news {
+      color: var(--color-bk);
+      font-size: 1.4rem;
+    }
+  </style>
+  <!-- Google Tag Manager -->
+  <script async="" src="~/Content/js/gtm.js"></script>
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-545R7ZM');
+  </script>
+  <!-- End Google Tag Manager -->
+  @*<script async="" src="~/Content/js/hotjar-1975653.js"></script>
+    <script async="" src="~/Content/js/modules.0d7a047cb613393385fe.js" charset="utf-8"></script>*@
+  <style type="text/css">
+
+    iframe#_hjRemoteVarsFrame {
+      display: none !important;
+      width: 1px !important;
+      height: 1px !important;
+      opacity: 0 !important;
+      pointer-events: none !important;
+    }
+  </style>
+</head>
+<body class="bg-gr-10" style="">
+  <h1 style="display: none">Ngân hàng TMCP Đại Chúng Việt Nam - PVcomBank</h1>
+  <!-- Facebook Pixel Code -->
+  <!-- End Facebook Pixel Code -->
+  <header id="frontend-header" class="frontend-header-home p-0 box-shadow--lg container">
+    @{
+      Html.RenderAction("_Header", "Home");
+    }
+  </header>
+
+  <!-- [START] NAV MENU FOR MOBILE ONLY -->
+  <div id="nav-mobile-container" class="nav-mobile-container d-none align-items-start collapsed">
+    @{
+      Html.RenderAction("_HeaderMobile", "Home");
+    }
+  </div>
+  <!-- [END] NAV MENU FOR MOBILE ONLY -->
+
+  <div class="bussiness-personal-tabs">
+    @RenderBody()
+  </div>
+  <footer class="">
+    @{
+      Html.RenderAction("_Footer", "Home");
+    }
+  </footer>
+  <button class="button-back-to-top hide">
+    <i class="icon icon-arrow-up--bk"></i>
+  </button>
+  <!-- Modal -->
+  <script type="text/javascript" src="~/Content/js/index.js"></script>
+  <script type="text/javascript" src="~/Content/js/jquery-ui-1.12.1.min.js"></script>
+  <script type="text/javascript" src="~/Content/js/styles.js"></script>
+  <script type="text/javascript" src="~/Content/js/pixel_script.js"></script>
+  <script type="text/javascript" src="~/Content/js/slick.js"></script>
+  <!--
+  <script type="text/javascript">
+      $('.menu-language-select').change(function(event) {
+          changeLanguage(event)
+      });
+
+      function changeLanguage(e) {
+          var selectedLanguage = $(e.target).children("option:selected").val();
+          var ajaxUrl = "http://beta.pvcombank.com.vn/set-languaguage";
+          $.ajax({
+              method: "POST",
+              url: ajaxUrl,
+              data: {
+                  toLang: selectedLanguage
+              },
+              success: function() {
+                  window.location.reload();
+              }
+          });
+      }
+  </script>
+  -->
+  <link rel="stylesheet" id="camera-css" href="~/Content/css/camera.css" type="text/css" media="all">
+  <script type="text/javascript" src="~/Content/js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="~/Content/js/camera.min.js"></script>
+  <script src="~/Content/js/bootbox.min.js"></script>
+  <script src="~/Content/js/moment.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      var isMinimumStyle = false;
+      // when start
+      if ($("html").scrollTop() > 0) {
+        changeHeaderMinimumStyle()
+      }
+      // when scroll
+      $(document).on('scroll', function () {
+        var docScrollTop = $("html").scrollTop();
+        if (docScrollTop > 0 && window.innerWidth >= 1024 && !isMinimumStyle) {
+          isMinimumStyle = true;
+          changeHeaderMinimumStyle();
+        } else if (docScrollTop === 0 && isMinimumStyle) {
+          isMinimumStyle = false;
+          changeHeaderStyleBack();
+        }
+      });
+    })();
+
+    function changeHeaderMinimumStyle() {
+      // container
+      $('#frontend-header').addClass('bg-wh').addClass('container-full-width').removeClass('container');
+      // top-head
+      $('#top-head').addClass('disappear');
+      // logo
+      // $('#frontend-logo').addClass('opacity-0');
+      $('#frontend-header-wrapper').removeClass('border-bottom');
+      // $('#frontend-header-wrapper').addClass('pl-lg-3');
+      setTimeout(function () {
+        $('#main-menu__item-group-1').addClass('d-none');
+        $('#main-menu__item-group-2').removeClass('d-none').addClass('d-flex');
+        $('#frontend-logo')
+          // .addClass('pvc--icon-only').removeClass('pvc--original')
+          .addClass('smaller').addClass('ml-lg-3').removeClass('opacity-0');
+      }, 0);
+      $('#main-menu li:last-child').removeClass('border-left');
+      $('#main-menu .divider--vertical').removeClass('d-none');
+      // beau-person, beau-business
+      $("#beau-business a.dropdown__item").removeClass('h6').addClass('h8');
+      $("#beau-person a.dropdown__item").removeClass('h6').addClass('h8');
+
+      $("#beau-person a.dropdown__item i.icon").removeClass('icon--size-3').addClass('icon--size-2');
+      $("#beau-business a.dropdown__item i.icon").removeClass('icon--size-3').addClass('icon--size-2');
+
+      $("#main-menu li .main-menu__secondary-title").removeClass('h8').addClass('h9');
+    }
+
+    function changeHeaderStyleBack() {
+      // container
+      $('#frontend-header').removeClass('bg-wh').addClass('container').removeClass('container-full-width');
+      // top-head
+      $('#top-head').removeClass('disappear');
+      // logo
+      // $('#frontend-logo').addClass('opacity-0');
+      $('#frontend-header-wrapper').addClass('border-bottom');
+      // $('#frontend-header-wrapper').removeClass('pl-lg-3');
+      setTimeout(function () {
+        $('#main-menu__item-group-1').removeClass('d-none');
+        $('#main-menu__item-group-2').addClass('d-none').removeClass('d-flex');
+        $('#frontend-logo')
+          // .addClass('pvc--original').removeClass('pvc--icon-only')
+          .removeClass('smaller').removeClass('ml-lg-3').removeClass('opacity-0');
+      }, 0);
+      $('#main-menu li:last-child').addClass('border-left');
+      $('#main-menu .divider--vertical').addClass('d-none');
+      // beau-person, beau-business
+      $("#beau-business a.dropdown__item").addClass('h6').removeClass('h8');
+      $("#beau-person a.dropdown__item").addClass('h6').removeClass('h8');
+
+      $("#beau-person a.dropdown__item i.icon").removeClass('icon--size-2').addClass('icon--size-3');
+      $("#beau-business a.dropdown__item i.icon").removeClass(' icon--size-2').addClass(' icon--size-3');
+
+      $("#main-menu li .main-menu__secondary-title").removeClass('h9').addClass('h8');
+    }
+    // when hover in hotline
+    $('.header__hotline').mouseenter(function () {
+      $('.header__hotline > i.icon').removeClass('icon-call-phone--bk').addClass('icon-call-phone--bl');
+      $('.header__hotline > .h9').removeClass('text--color-bk').addClass('text--color-bl');
+    }).mouseleave(function () {
+      $('.header__hotline > i.icon').removeClass('icon-call-phone--bl').addClass('icon-call-phone--bk');
+      $('.header__hotline > .h9').removeClass('text--color-bl').addClass('text--color-bk');
+    });
+    $('.nav-mobile-backdrop').on('click', function () {
+      closeNavMobile(this);
+    })
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('#onboardBannerModalForm').submit(function (e) {
+        e.preventDefault();
+        // $('#onboardBannerModalForm button').attr('disabled', 'disabled');
+        $.ajax({
+          url: "http://beta.pvcombank.com.vn/post-onboarding",
+          data: {
+            email: $('#onboardBannerEmail').val()
+          },
+          method: "POST",
+          dataType: 'application/json',
+          success: function (rs) {
+            $('#onboardBannerModal').modal('hide');
+          },
+          error: function (er) {
+            // console.log(er.email)
+            $('#onboardBannerModal').modal('hide');
+          }
+        });
+      });
+
+      $('#onboardBannerModal').on('hidden.bs.modal', function (e) {
+        hideModal = true;
+        $.ajax({
+          url: "http://beta.pvcombank.com.vn/post-onboarding?hideModal=1",
+          data: {
+            email: $('#onboardBannerEmail').val()
+          },
+          method: "POST",
+          dataType: 'application/json',
+          success: function (rs) {
+            $('#onboardBannerModal').modal('hide');
+          },
+          error: function (er) {
+            // console.log(er.email)
+            $('#onboardBannerModal').modal('hide');
+          }
+        });
+      })
+    });
+  </script>
+  <input type="hidden" name="___PVCOMBANK" id="__PVCB" value="c1ca996bd8bae65732af2cecd4d4f28a">
+
+  <iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe>
+
+  @RenderSection("EndScript", false)
+</body>
+</html>
